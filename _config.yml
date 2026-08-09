@@ -24,14 +24,14 @@ repository: "shashwat180/shashwat180.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "shashwat_photo.jpg"
+  avatar: "images/shashwat_photo.jpg"
   name: "Shashwat Revdandekar"
   pronouns: # example: "she/her"
-  bio: "Short biography for the left-hand sidebar"
-  location: "Earth"
-  employer: "Red Brick University"
+  bio: "Computer Architect | Memory Systems Research | VLSI Enthusiast"
+  location: "Atlanta, GA"
+  employer: "Georgia Institute of Technology"
   uri: # URL
-  email: "none@example.org"
+  email: "srevdandekar3@gatech.edu"
 
   # Academic websites
   academia: # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation: # Username
-  bluesky: "bsky.app" # Replace this with you Bluesky username
+  bluesky: #"bsky.app" # Replace this with you Bluesky username
   facebook: # Username
   flickr: # Username
   foursquare: # Username
@@ -66,7 +66,7 @@ author:
   keybase: # Username
   instagram: # Username
   lastfm: # Username
-  linkedin: # Username
+  linkedin: "https://www.linkedin.com/in/shashwatrevdandekar/"
   mastodon: # URL
   medium: # URL
   pinterest: # Username
