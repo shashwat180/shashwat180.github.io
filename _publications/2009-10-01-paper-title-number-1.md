@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 #permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: "This paper analyzes the two-transistor zero-capacitor (2T0C) DRAM architecture based on amorphous indium-gallium-zinc-oxide (IGZO) thin-film transistors as an intrinsic structural mitigation against Rowhammer, arising not from an explicit security mechanism but from the material properties of IGZO itself."
-date: 2026-28-04
+date: 2026-04-28
 #venue: 'Journal 1'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: "https://shashwat180.github.io/files/ECE6458_paper.pdf"
