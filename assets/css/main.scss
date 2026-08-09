@@ -29,8 +29,9 @@
 
   .sidebar,
   .sticky {
-    position: static !important;
-    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    float: left !important;
+    height: 100% !important;
   }
 }
-/* 4. Disable the sticky sidebar so the entire page scrolls naturally */
