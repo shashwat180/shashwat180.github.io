@@ -8,32 +8,33 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
-@import
-    "vendor/breakpoint/breakpoint",
+@import "vendor/breakpoint/breakpoint", "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "include/mixins", "vendor/susy/susy", "layout/reset", "layout/base",
+  "include/utilities", "layout/tables", "layout/buttons", "layout/notices",
+  "layout/masthead", "layout/navigation", "layout/footer", "syntax",
+  "layout/forms", "layout/page", "layout/archive", "layout/sidebar",
+  "layout/json_cv";
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+@media (min-width: 64em) {
+  .sidebar {
+    width: 350px !important;
+  }
 
-    "include/mixins",
-    "vendor/susy/susy",
+  .author__employer,
+  .author__location {
+    font-size: 0.85em !important;
+  }
+}
 
-    "layout/reset",
-    "layout/base",
+/* 2. Reduce the footer height and spacing */
+.page__footer {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  margin-top: 2em !important;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
-;
+.page__footer-follow {
+  margin-bottom: 0.5em !important;
+}
