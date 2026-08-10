@@ -2,7 +2,7 @@
 title: "Vision-Integrated Robotic Arm & ARM-Based Motor Control"
 excerpt: "Developed an automated robotic arm prototype integrating a custom-designed PCB, ARM M051 embedded C firmware, and a Raspberry Pi-based object classification model for vision-guided manipulation tasks."
 collection: portfolio
-header: teaser:"500x300.png"
+header: { teaser:"500x300.png" }
 ---
 
 <h2>Overview</h2>
