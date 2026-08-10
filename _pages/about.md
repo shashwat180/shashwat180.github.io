@@ -11,4 +11,4 @@ Hello! I am a Master's student in Electrical and Computer Engineering at the Geo
 
 I earned my Bachelor's degree in Electronics Engineering from The Maharaja Sayajirao University of Baroda. Before starting my graduate studies, I gained practical industry experience as a Process Engineer at Adani Solar.
 
-My ongoing academic interests center on digital circuit design, VLSI, and advancing memory systems with the ultimate goal of pursuing a PhD in computer architecture.
+My ongoing academic interests center on digital circuit design, VLSI, and advancing memory systems. This portfolio highlights selected projects across these domains.
