@@ -1,6 +1,6 @@
 ---
 title: "VHDL RTL Synthesis and Verification in Xilinx Vivado"
-excerpt: "Engineered custom VHDL modules using Xilinx Vivado, executing the end-to-end FPGA design flow from RTL synthesis to bitstream generation while ensuring cycle-accurate behavior and optimizing for strict timing constraints.<br/><img src='/images/500x300.png'>"
+excerpt: "Engineered custom VHDL modules using Xilinx Vivado, executing the end-to-end FPGA design flow from RTL synthesis to bitstream generation while ensuring cycle-accurate behavior and optimizing for strict timing constraints.<br/><img src='/images/vhdl_rtl.jpg'>"
 collection: portfolio
 ---
 

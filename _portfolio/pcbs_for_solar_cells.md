@@ -1,6 +1,6 @@
 ---
 title: "PCBs for Solar Cell Validation"
-excerpt: "Engineered a custom multi-channel PCB in KiCAD to accelerate high-precision solar cell characterization, reducing overall testing time by 80% through simultaneous 8-pixel measurement and seamless legacy hardware integration.<br/><img src='/images/500x300.png'>"
+excerpt: "Engineered a custom multi-channel PCB in KiCAD to accelerate high-precision solar cell characterization, reducing overall testing time by 80% through simultaneous 8-pixel measurement and seamless legacy hardware integration.<br/><img src='/images/pcb_solar_cell.png'>"
 collection: portfolio
 ---
 
