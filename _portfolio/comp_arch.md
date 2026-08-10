@@ -1,6 +1,6 @@
 ---
 title: "Architectural Modeling of Superscalar OoO Execution & Matrix Accelerators"
-excerpt: "Developed cycle-accurate C++ simulators to model superscalar out-of-order CPU execution and systolic-array GEMM accelerators, evaluating architectural performance through instruction-level profiling and hardware parameter scaling.<br/><img src='/images/500x300.png'>"
+excerpt: "Developed cycle-accurate C++ simulators to model superscalar out-of-order CPU execution and systolic-array GEMM accelerators, evaluating architectural performance through instruction-level profiling and hardware parameter scaling.<br/><img src='/images/comp_arch.png'>"
 collection: portfolio
 ---
 
@@ -10,9 +10,10 @@ To deeply understand the bottlenecks and design trade-offs in modern processing 
 <h2>Superscalar Out-of-Order CPU Modeling</h2>
 I engineered a comprehensive CPU simulator that accurately mimics the complex data and control flow of a modern processor.
 
-    Pipeline Implementation: The design features a fully functional instruction pipeline, including advanced hazard resolution, pipeline data forwarding, and branch prediction mechanisms.
+<ul>
+    <li>Pipeline Implementation: The design features a fully functional instruction pipeline, including advanced hazard resolution, pipeline data forwarding, and branch prediction mechanisms.</li>
 
-    Instruction Scheduling: To model out-of-order execution, I implemented dynamic scheduling components, specifically a Register Alias Table (RAT) for register renaming and a Reorder Buffer (ROB) to ensure precise state management and in-order retirement.
+<li>Instruction Scheduling: To model out-of-order execution, I implemented dynamic scheduling components, specifically a Register Alias Table (RAT) for register renaming and a Reorder Buffer (ROB) to ensure precise state management and in-order retirement.</li></ul>
 
 <h2>Systolic-Array GEMM Accelerator</h2>
 In parallel with the CPU model, I built a systolic-array simulator specifically tailored to execute matrix multiplication workloads. This model allowed me to isolate and study key hardware constraints, such as the impact of FIFO buffer sizing and off-chip memory bandwidth scaling on overall cycles-to-completion.

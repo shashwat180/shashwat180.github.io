@@ -1,6 +1,6 @@
 ---
 title: "Efficient Delay Fault Simulation for Short Defects in Standard Cells"
-excerpt: "Conducted transistor-level reliability analysis of CMOS standard cells using Cadence and HSPICE, developing custom Python automation to model resistive shorts and characterize defect-induced timing failures. <br/><img src='/images/500x300.png'>"
+excerpt: "Conducted transistor-level reliability analysis of CMOS standard cells using Cadence and HSPICE, developing custom Python automation to model resistive shorts and characterize defect-induced timing failures. <br/><img src='/images/shorts_std_cell.png'>"
 collection: portfolio
 ---
 
