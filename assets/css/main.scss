@@ -69,7 +69,8 @@
   float: none !important;
   margin: 0 !important;
   position: relative !important;
-  background: #f9f9f9;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -122,12 +123,13 @@
 
 .entries-grid .archive__item-title a {
   text-decoration: none;
-  color: #333;
+  color: var(--global-text-color);
 }
 
 .entries-grid .archive__item-excerpt {
   font-size: 0.85em !important;
   line-height: 1.4;
   margin: 0;
+  color: var(--global-text-color);
   flex-grow: 1; /* Pushes the bottom of all text boxes to align */
 }
