@@ -26,6 +26,12 @@
   .author__location {
     font-size: 0.85em !important;
   }
+
+  .page {
+    margin-left: 350px !important;
+    float: right !important;
+    width: calc(100%-350px) !important;
+  }
 }
 
 /* ==========================================================================
