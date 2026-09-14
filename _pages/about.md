@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
 Hello! I'm a Master's student in Electrical and Computer Engineering at the Georgia Institute of Technology, graduating in December 2026. My background spans the full hardware stack — semiconductor process engineering, digital design and computer architecture, and embedded/electrical systems — and I'm drawn to roles that combine hands-on engineering with rigorous problem-solving.
 
 I began my career as a Process Engineer at Adani Solar, working on high-volume manufacturing of TOPCon solar cells — running SPC-based root cause analysis, process qualification experiments, and yield improvement initiatives. I earned my Bachelor's degree in Electronics Engineering from The Maharaja Sayajirao University of Baroda.
