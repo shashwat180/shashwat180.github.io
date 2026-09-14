@@ -1,6 +1,6 @@
 ---
 title: "RV32I CPU Design using Python and SystemVerilog"
-excerpt: "Developed a Python-based Instruction Set Simulator for the full RV32I base integer architecture as a golden reference model, and am translating it into synthesizable SystemVerilog RTL with an automated Cocotb verification environment.<br/><img src='/images/rv32i_cpu.jpg'>"
+excerpt: "Developed a Python-based Instruction Set Simulator for the full RV32I base integer architecture as a golden reference model, and am translating it into synthesizable SystemVerilog RTL with an automated Cocotb verification environment.<br/><img src='/images/rv32i_cpu.png'>"
 collection: portfolio
 ---
 
